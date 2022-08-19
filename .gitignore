@@ -1,32 +1,18 @@
-# Prerequisites
-*.d
+#include <iostream>
+using namespace std;
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main()
+{
+    int n;
+    cin >> n;
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+    if (n % 2 == 0)
+    {
+        cout << "even" << endl;
+    }
+    else
+    {
+        cout << "odd" << endl;
+    }
+    return 0;
+}
